@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <title>Нови Сад</title>
+
+    <style>
+        body {
+            background-color: #0d1b2a;
+            color: white;
+            font-family: Arial;
+        }
+
+        h1 {
+            background-color: DodgerBlue;
+            color: white;
+            padding: 15px;
+        }
+
+        a {
+            color: #bec3c7;
+            margin-right: 15px;
+        }
+
+        .strana {
+            display: none;
+        }
+
+        #pocetna {
+            display: block;
+        }
+
+        .strana:target {
+            display: block;
+        }
+
+        body:has(#most:target) #pocetna,
+        body:has(#stadion:target) #pocetna {
+            display: none;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>Нови Сад</h1>
+
+    <a href="#pocetna">Нови Сад</a>
+    <a href="#most">Варадински мост</a>
+    <a href="#stadion">Стадион Карађорђе</a>
+
+    <div id="pocetna" class="strana">
+
+        <p>
+            Нови Сад је други највећи град у Србији.
+            Познат је по својој култури, историји,
+            лепој архитектури и реци Дунав.
+        </p>
+
+        <img src="NS.jpeg" width="500" alt="Нови Сад">
+
+        <br><br>
+
+        <p>
+            Нови Сад један је од најразвијенијих градова
+            у југоисточној Европи, богат културом,
+            традицијом и урбаним садржајима, препознат
+            као веома погодно и подстицајно место за
+            живот, рад и инвестирање.
+        </p>
+
+        <iframe
+            src="https://maps.google.com/maps?q=Novi%20Sad%20City%20Centre&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            width="600"
+            height="450">
+        </iframe>
+
+        <br><br>
+
+        <p>Нови Сад центар, локација.</p>
+
+        <a href="https://novisad.rs/">
+            Град Нови Сад, званична презентација града Новог Сада.
+        </a>
+
+    </div>
+
+    <div id="most" class="strana">
+
+        <h1>Варадински мост</h1>
+
+        <p>
+            Варадински мост (претходно познат као Мост
+            краљевића Томислава и Мост маршала Тита)
+            јесте мост на Дунаву који се простире између
+            Новог Сада и Петроварадина.
+        </p>
+
+        <img src="most.jpeg" width="500" alt="Варадински мост">
+
+        <br><br>
+
+        <p>
+            Мост представља један од препознатљивих
+            симбола Новог Сада и важну саобраћајну везу.
+        </p>
+
+        <iframe
+            src="https://maps.google.com/maps?q=Varadin%20Bridge%20Novi%20Sad&z=15&output=embed"
+            width="500"
+            height="350">
+        </iframe>
+
+        <br><br>
+
+        <a href="https://sr.wikipedia.org/wiki/Варадински_мост">
+            Нови Сад, Варадински мост
+        </a>
+
+    </div>
+
+    <div id="stadion" class="strana">
+
+        <h1>Стадион Карађорђе</h1>
+
+        <p>
+            Стадион Карађорђе налази се у Новом Саду.
+            На њему своје утакмице игра фудбалски клуб
+            Војводина.
+        </p>
+
+        <img src="stadion.jpeg" width="500" alt="Стадион Карађорђе">
+
+        <br><br>
+
+        <p>
+            Стадион „Карађорђе“ саграђен је 1924. године
+            и од тада на њему своје утакмице играју
+            фудбалери Војводине. Капацитет стадиона је
+            14.458 седећих места, при чему су наткривена
+            седишта која се налазе на западној трибини.
+            Стадион се налази у улици Димитрија Туцовића,
+            на истом месту на којем је и саграђен.
+        </p>
+
+        <iframe
+            src="https://maps.google.com/maps?q=Stadion%20Karadjordje%20Novi%20Sad&t=&z=16&ie=UTF8&iwloc=&output=embed"
+            width="600"
+            height="450">
+        </iframe>
+
+        <br><br>
+
+        <a href="https://www.fkvojvodina.rs/stadion-karadjordje/karadjordje-kroz-decenije/">
+            Званична страница ФК Војводина
+        </a>
+
+    </div>
+
+</body>
+</html>
